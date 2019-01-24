@@ -5,7 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Hello world</h1>
-<h2>how do you do?</h2>
+
 </body>
 </html>
