@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Startup Heart</title>
 </head>
 <header>
     <?php
-    echo "Привет";
+    include "Header.php";
     ?>
 </header>
 <body>
