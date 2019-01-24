@@ -1,3 +1,2 @@
-<img src="img/Header.png">
-<?php
-echo "Header";
+<link rel="stylesheet" href="header.css">
+<img src="header/img/Header.png">
