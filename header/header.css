@@ -8,4 +8,21 @@ header{
 }
 .menu{
     background: url(img/menu.png);
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    height: 25px;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.line{
+    background: url(img/line.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    height: 30px;
+
 }

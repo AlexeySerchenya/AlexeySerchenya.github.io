@@ -9,6 +9,17 @@
     <a href="">6</a>
     <a href="">7</a>
 </p>
-<a class="logo" href="index.php"><img src="header/img/logo.png" alt="главная"></a>
-<img class="line_botom" src="header/img/line.png">
+
+<p class="logo">
+
+    <p></p>
+    <a  href="index.php">
+        <img src="header/img/logo.png" alt="главная">
+    </a>
+    <p></p>
+</p>
+
+<p class="line">
+
+</p>
 </body>
