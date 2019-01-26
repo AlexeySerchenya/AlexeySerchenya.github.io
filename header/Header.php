@@ -1,24 +1,24 @@
 <body>
 <link rel="stylesheet" href="header/header.css">
-<p class="menu">
-    <a href="">1</a>
-    <a href="">2</a>
-    <a href="">3</a>
-    <a href="">4</a>
-    <a href="">5</a>
-    <a href="">6</a>
-    <a href="">7</a>
-</p>
-
-<p class="logo">
-
+<div class="menu">
     <p></p>
+    <a href=""><h1>Главная</h1></a>
+    <a href="">Проектам</a>
+    <a href="">Менторам</a>
+    <a href="">Инвесторам</a>
+    <a href="">Спонсорам</a>
+    <a href="">О Конкурсе</a>
+    <a href="">Контакты</a>
+    <p></p>
+</div>
+
+<div class="logo">
+    <div></div>
     <a  href="index.php">
         <img src="header/img/logo.png" alt="главная">
     </a>
-    <p></p>
-</p>
-
+    <div></div>
+</div>
 <p class="line">
 
 </p>

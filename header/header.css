@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 header{
     background: url(img/img.png) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -7,15 +10,47 @@ header{
     display: grid;
 }
 .menu{
+    margin-top: 60px;
     background: url(img/menu.png);
     background-size: 100%;
     display: grid;
-    grid-template-columns: repeat(7, auto);
-    height: 25px;
+    grid-template-columns: repeat(9, auto);
+    height: 60px;
+    text-align: center;
 }
+.menu a{
+      font-size: 31px;
+      font-family: "AvertaDemoPECuttedDemo";
+      color: rgb(68, 68, 68);
+      line-height: 1.2;
+      -moz-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+      -webkit-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+      -ms-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+      justify-items: center;
+      align-items: center;
+  }
+.menu a h1{
+    font-size: 31px;
+    font-family: "AvertaDemoPECuttedDemo";
+    color: rgb(68, 68, 68);
+    line-height: 1.2;
+    -moz-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+    -webkit-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+    -ms-transform: matrix( 0.7872172540768,0,0,0.78710821998817,0,0);
+    }
 .logo{
+    margin-top: 74px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 33%);
+}
+.logo a {
+    text-align: center;
+}
+.logo a img{
+    width: 100%;
+    max-height: 372px;
+    max-width: 599px;
+
 }
 .line{
     background: url(img/line.png) no-repeat;
@@ -23,6 +58,7 @@ header{
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-    height: 30px;
-
+    height: 47px;
+    margin-top: 106px;
+    top: 26px;
 }
