@@ -1,7 +1,36 @@
 body {
-    background: url(img/header.png) no-repeat;
+    background: url(img/img.png) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+}
+
+.logo{
+    position: inherit;
+    text-align: center;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin: -50% 0 0 -50%;*/
+    background: url(img/logo.png) no-repeat;
+    background-size: cover; /* Современные браузеры */
+    width: 314px;
+    height: 199px;
+
+;
+
+}
+
+.logo img{
+    max-height: 54%;
+    max-width: 54%;
+    min-height: 10%;
+    min-width: 10%;
+
+}
+
+.line{
+    margin-top: 725px;
+    height: 50px;
+    margin-left: -50px;
 }
